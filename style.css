@@ -272,12 +272,13 @@ p.row_text {
 .footer {
     background-color: #ffffffd3;
     height: 50px;
-    text-align:center;
+    text-align: center;
     line-height: 50px;
     font-size: 2.4vmin;
     color: #7e7e7e;
 }
-.footer_text{
+
+.footer_text {
     text-decoration: none;
     color: #7e7e7eb9;
 }
@@ -304,7 +305,7 @@ p.row_text {
     }
 
     main h1#main_text {
-        margin: auto;
+        text-align: center;
         padding: 0;
         max-width: 100%;
         font-size: 8vmin;
@@ -312,7 +313,7 @@ p.row_text {
     }
 
     main h3#main_text {
-        margin: auto;
+        text-align: center;
         padding: 0;
         max-width: 100%;
         font-size: 5vmin;
@@ -333,6 +334,11 @@ p.row_text {
         min-width: 300px;
     }
 
+    h4#form_header {
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+
     input#name {
         font-size: 5vmin;
     }
@@ -350,21 +356,39 @@ p.row_text {
         align-items: center;
     }
 
+    h4#strip_header1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h4#strip_header2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    h4#strip_header3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .box1 {
         max-width: 255px;
+        min-height: 260px;
     }
 
     .box2 {
         max-width: 255px;
+        min-height: 260px;
     }
 
     .box3 {
         max-width: 255px;
+        min-height: 260px;
     }
+/* RESPONSIVE ROW OWNERS*/
 
     p#row_text {
         max-width: 80%;
         font-size: 4vmin;
-
     }
 }
